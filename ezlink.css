@@ -45,10 +45,13 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    -webkit-transition: width 2s;
+    transition: width 2s;
 }
 
 li a:hover {
     background-color: #F5F5F5;
+    width: 150px;
 }
 
 h1{
@@ -135,9 +138,6 @@ font.lorem{
   font-weight: 300;
 }
 
-.textCenter{
-  text-align: center;
-}
 
 #headerLogo {
   text-align: left;
@@ -156,12 +156,29 @@ font.lorem{
   float: left;
   text-align: left;
   width: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
 
 }
 
 #try{
-  text-align: left;
+      margin-top: 60%;
+      background-color: #1d4568;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
 }
+
+#buttonBuy{
+  width: 149px;
+height: 40px;
+background-color: #1b2b39;
+border-radius: 3px;
+border: none;
+}
+
 
 #setup{
   align: center;
@@ -170,4 +187,63 @@ font.lorem{
 
 #specification{
   align: center;
+}
+
+.headerText{
+  width: 90px;
+height: 40px;
+color: #1b2b39;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+}
+
+.listText{
+color: #1b2b39;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 300;
+line-height: 24px;
+}
+
+font.buttonText{
+  width: 113px;
+height: 14px;
+color: #e2e1e9;
+font-size: 14px;
+line-height: 17px;
+font-family: Montserrat;
+font-weight: 300;
+}
+
+font.buttonArrow{
+  width: 113px;
+height: 14px;
+color: #e2e1e9;
+font-size: 14px;
+line-height: 17px;
+font-family: Lato;
+font-weight: 500;
+}
+
+font.button99{
+  border-radius: 3px;
+  width: 36px;
+  height: 18px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+font.signUp{
+  width: 158px;
+height: 14px;
+color: #1b2b39;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
 }
