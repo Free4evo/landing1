@@ -1,8 +1,8 @@
 * {margin: 0; padding: 0;} /* обнуляем отступы */
 
 body{
-text-align: center; /* выравниваем все содержимое body по центру */
-background: #fff; /* цвет фона для наглядности */
+text-align: center; 
+background: #fff;
 }
 
 div {
