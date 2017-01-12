@@ -1,0 +1,46 @@
+.specs
+{
+    img
+    {
+        width: 320px;
+        height: 260px;
+        margin: * var(--gutter);
+    }
+
+    .wrapper
+    {
+        flex: 1;
+        min-width: 320px;
+        padding: * var(--gutter);
+        box-sizing: border-box;
+    }
+
+    .feature
+    {
+        margin: 15px auto;
+        max-width: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+
+        &:nth-of-type(odd)
+        {
+            flex-direction: row-reverse;
+        }
+
+        h3
+        {
+            margin: 15px *;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 4px;
+        }
+
+        p
+        {
+            letter-spacing: 2px;
+            line-height: 2;
+        }
+    }
+}

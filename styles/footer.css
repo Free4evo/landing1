@@ -1,0 +1,73 @@
+.website-footer
+{
+    background: #eee;
+    padding: 40px calc(50% - 420px) 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.website-footer nav
+{
+    color: #1b2b39;
+    margin: 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.website-footer nav h2
+{
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.website-footer nav a
+{
+    font-size: 13px;
+    line-height: 2;
+}
+
+.website-footer nav a:hover
+{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px)
+{
+    .website-footer nav h2
+    {
+        font-size: 18px;
+    }
+
+    .website-footer nav a
+    {
+        font-size: 16px;
+    }
+}
+
+.website-footer .sign-up
+{
+    align-self: center;
+    text-align: center;
+    margin: 30px 0 20px;
+    flex-grow: 5;
+}
+
+.website-footer .sign-up .try-free
+{
+    background: var(--biscay);
+    width: 220px;
+    padding: 18px 0;
+    color: #ddd;
+    display: inline-block;
+    border-radius: 1px;
+}
+
+.website-footer .sign-up .free-period
+{
+    margin-top: 15px;
+}

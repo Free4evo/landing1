@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+:root
+{
+    font-family: "Montserrat", sans-serif;
+    min-width: 320px;
+
+    --gutter: 20px;
+    --biscay: #1d4568;
+    --wild-sand: #f4f4f4;
+}
+
+[data-vis-hidden]
+{
+    position: absolute;
+    transform: rotateY(90deg);
+}
